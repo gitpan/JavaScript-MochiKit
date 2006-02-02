@@ -1,0 +1,13 @@
+---
+name: JavaScript-MochiKit
+version: 0.01
+author: ~
+abstract: ~
+license: perl
+requires:
+  Class::Accessor::Fast: 0
+provides:
+  JavaScript::MochiKit:
+    file: lib/JavaScript/MochiKit.pm
+    version: 0.01
+generated_by: Module::Build version 0.2611

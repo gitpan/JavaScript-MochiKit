@@ -1,0 +1,8 @@
+Build.PL
+Changes
+lib/JavaScript/MochiKit.pm
+MANIFEST			This list of files
+META.yml
+Makefile.PL
+README
+SIGNATURE    Added here by Module::Build
