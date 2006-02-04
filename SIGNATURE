@@ -16,20 +16,43 @@ Hash: SHA1
 
 SHA1 e813b5ee01a1a0669884376794f2c96a3ac483c7 Build.PL
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 Changes
-SHA1 9176cd0b2e747828746665856443e4de09aa6f6f MANIFEST
-SHA1 e48ce6498ece962a7f6f1613daddf6e19868e1e2 META.yml
+SHA1 7918b7db2c3479f37d0d0105d3a4e1875da370a3 MANIFEST
+SHA1 e98a2a090b101b8a8d46a8371db4886efb18f5ea META.yml
 SHA1 71282624a99bb766fcf07b7af119c13dbbd017ae Makefile.PL
-SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 README
-SHA1 ae717f771849c60ea3e09f608d63d21fd09ae6a7 lib/JavaScript/MochiKit.pm
+SHA1 9cfa300bcbe955def2454b1f6cf65dfe78adb427 README
+SHA1 24224c9c67986931da5083b29907d0ee6ebbf617 lib/JavaScript/MochiKit.pm
+SHA1 8462873226d5fb7e7262315595e955b09a6048d4 lib/JavaScript/MochiKit/Accessor.pm
+SHA1 6577d490f662c45fb0357ed4728293dc32648927 lib/JavaScript/MochiKit/Async.pm
+SHA1 ceeb35d76aa9f562d7a5689aa14da0f1414272ee lib/JavaScript/MochiKit/Base.pm
+SHA1 92c2601556f687849d8ecb51b680f3fa89f9f893 lib/JavaScript/MochiKit/Color.pm
+SHA1 d7be78f8394460d20e75c999c3db3335d09b18b1 lib/JavaScript/MochiKit/Core.pm
+SHA1 c3a67e832ac0876aa571f4dc395d78e75a887361 lib/JavaScript/MochiKit/DOM.pm
+SHA1 cfe125ea858284d1da477f4ad93e90352fe022c9 lib/JavaScript/MochiKit/DateTime.pm
+SHA1 1db77b8f25ac997f57db9f43756f54d86101541b lib/JavaScript/MochiKit/Format.pm
+SHA1 8b3865c7d73b960d1aa22b4e42ce7e44d81d1049 lib/JavaScript/MochiKit/Iter.pm
+SHA1 70a339408077dfbfedce94c763dc7b40432c949c lib/JavaScript/MochiKit/JS/Async.pm
+SHA1 ec5e09368548d3f3313776ed4bb5876ece78fb31 lib/JavaScript/MochiKit/JS/Base.pm
+SHA1 68d277cc28b87b49d040e32a16b6e529a3eccb38 lib/JavaScript/MochiKit/JS/Color.pm
+SHA1 8ba9b2e8a06b1a4bfccda7c5e4d2c17d6f7be343 lib/JavaScript/MochiKit/JS/Core.pm
+SHA1 678240a06e3c870b70c9d529ba5a4c74445d3d84 lib/JavaScript/MochiKit/JS/DOM.pm
+SHA1 26778147c8c6617dc0e9a7e5851ac6bc39af10e4 lib/JavaScript/MochiKit/JS/DateTime.pm
+SHA1 206c60057a1f8f7bc5e73d0c86ce2a55fd316ba0 lib/JavaScript/MochiKit/JS/Format.pm
+SHA1 a70d018c9e828aaf3c4e4cb6fff51defd44c9100 lib/JavaScript/MochiKit/JS/Iter.pm
+SHA1 048ca5c326923562c9b9c98a03134bdf10ee17d7 lib/JavaScript/MochiKit/JS/Logging.pm
+SHA1 c1ec9f0c7962d7977437c23076e48921e16b4bc8 lib/JavaScript/MochiKit/JS/LoggingPane.pm
+SHA1 17454d076a2cfdf7162b0718428f9b1d45b12ac3 lib/JavaScript/MochiKit/JS/Visual.pm
+SHA1 863cad19af414166005734d13256620c9e41e71c lib/JavaScript/MochiKit/Logging.pm
+SHA1 910e6c8937b6f963949a79d7403862a0ca5c1b56 lib/JavaScript/MochiKit/LoggingPane.pm
+SHA1 fe630a8d39d3f93bd690e0e967817c2c42960d80 lib/JavaScript/MochiKit/Visual.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.2.4 (MingW32)
 Comment: GnuPT 2.7
 
-iQEVAwUBQ+JKfanM4kGH82hDAQLEMwgAqRKce+I3JaTEPGXho9Qz3XtQOhYLTTuE
-6QUhulS2+c5HHBJOMC3VZzgMnZNBxdfzkOnynKBF+x6Kkzh6y3V/mMGI5ZSelfzh
-XoJ8A+hJJhlcsD11hWZ1YTLnzxd6c5GR38k8qmLFrLMpNr1Wor7bSp1PG/Ee0bY9
-+bS92N9VPo6FixtE0QH+ZhCWKo9nH324o2XjOfT0C3shkY7bdq3LBwOS9XFG+AG3
-7DyuNvWDLpdPpJeCrDFgrM+7k79wKMRYUi2u0XGqW7w/Ud+74cl9TrerS/bp6KiX
-b1SX4OXwgAzPNY3a2w/1hND7/ntGoZAgXKSc9DDEhF60XpOcks3yNA==
-=3mqn
+iQEVAwUBQ+QT96nM4kGH82hDAQJHlQf/afFCumh8NUV4MqqLcITj2JNLQ8XfqR/+
+KEFN6xLjZ5ytjjCw2t7b2ngOrq9JAzOzuyz8+YojReRaqKb8D0Q68Har3KpGgkgK
++vd3Kumux+s1rj9v1IyupTGu7mwjEMX7AU9vewZ0mnnDcYFc9EM65hCAjcd4Wnmq
+UIQHfnwMtpR0ntXaSKUi2rO614HZzTQw805eSChBWkd59SHssLoZGdGEbDNFc5o/
+mArcvG7CoF8gTLZpwgcVgakw2nD4P3hTddPDD8pbrxvA4rsyFEY4ET3xp0nVHZT7
+YZRrivX33snigGDbHAA4NMNhBYHrozDZmdF+Om72XxK0pObXUYFkQw==
+=gWUb
 -----END PGP SIGNATURE-----
