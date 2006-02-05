@@ -15,12 +15,19 @@ SYNOPSIS
 DESCRIPTION
 FUNCTIONS
   JavaScript::MochiKit::require( @classes )
-    Loades the given MochiKit classes and also their required Javascript
-    code. Returns 1 on success, dies on error.
+    Loades the given MochiKit classes and also their javascript-code (unless
+    "$JavaScript-Mochikit::LOADJAVASCRIPT" is 0).
+
+    Returns 1 on success, dies on error.
 
   JavaScript::MochiKit::require_all( )
-    Loades all MochiKit classes and also their required Javascript code.
+    Loades all MochiKit classes and also their javascript-code (unless
+    "$JavaScript-Mochikit::LOADJAVASCRIPT" is 0).
+
     Returns 1 on success, dies on error.
+
+  JavaScript::MochiKit::is_required( $class )
+    Returns 1 if class has already been loaded, 0 otherwise.
 
   JavaScript::MochiKit::javascript_definitions( @classes )
     Returns the Javascript code as one big string for all wanted classes.
@@ -30,11 +37,33 @@ FUNCTIONS
     Returns the Javascript code for all loaded classes if @classes is empty.
     Returns an empty string if no class is loaded.
 
-METHODS
-SEE ALSO
-    Catalyst
+    May die if a unloaded class does not exist.
 
-    <http://www.catalystframework.org>, <http://www.mochikit.org>
+METHODS
+GLOBAL VARIABLES
+  $JavaScript::Mochikit::DEBUG
+    Enables debug-information-output to STDERR.
+
+    Default 0
+
+  $JavaScript::Mochikit::LOADJAVASCRIPT
+    If value is 0, "JavaScript::MochiKit::require" will not load the
+    javascript-code into memory.
+
+    Useful if javascript-code is available as external files. (NOTE:
+    "JavaScript::Mochikit::javascript_definitions" will always load the
+    javascript-code into memory.)
+
+    Default 1
+
+  $JavaScript::Mochikit::VERSION
+    Returns the current JavaScript-Mochikit version number.
+
+SEE ALSO
+    HTML::Prototype, Catalyst
+
+    <http://www.perl-community.de>, <http://www.catalystframework.org>,
+    <http://www.mochikit.org>
 
 AUTHOR
     Sascha Kiefer, "esskar@cpan.org"

@@ -1,6 +1,6 @@
 ---
 name: JavaScript-MochiKit
-version: 0.02
+version: 0.03
 author:
   - 'Sascha Kiefer, C<esskar@cpan.org>'
 abstract: JavaScript::MochiKit makes Perl suck less
@@ -10,7 +10,7 @@ requires:
 provides:
   JavaScript::MochiKit:
     file: lib/JavaScript/MochiKit.pm
-    version: 0.02
+    version: 0.03
   JavaScript::MochiKit::Accessor:
     file: lib/JavaScript/MochiKit/Accessor.pm
   JavaScript::MochiKit::Async:
@@ -55,6 +55,8 @@ provides:
     file: lib/JavaScript/MochiKit/Logging.pm
   JavaScript::MochiKit::LoggingPane:
     file: lib/JavaScript/MochiKit/LoggingPane.pm
+  JavaScript::MochiKit::Module:
+    file: lib/JavaScript/MochiKit/Module.pm
   JavaScript::MochiKit::Visual:
     file: lib/JavaScript/MochiKit/Visual.pm
 generated_by: Module::Build version 0.2611
