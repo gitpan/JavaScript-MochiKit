@@ -1,5 +1,7 @@
 package JavaScript::MochiKit::JS::DOM;
 
+use strict;
+
 1;
 
 __DATA__

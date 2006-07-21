@@ -4,7 +4,7 @@ use strict;
 use vars qw[ $VERSION $LOADJAVASCRIPT $DEBUG ];
 use base qw[ JavaScript::MochiKit::Accessor ];
 
-$VERSION        = '0.03';
+$VERSION        = '0.04';
 $LOADJAVASCRIPT = 1;
 $DEBUG          = 0;
 
@@ -76,7 +76,7 @@ sub require {
             print STDERR "Package '$core_namespace' just loaded.\n" if $DEBUG;
 
             my $dependencies =
-              &get_variable( $core_namespace, 'Dependencies', 'ARRAY' );
+              &_get_variable( $core_namespace, 'Dependencies', 'ARRAY' );
             if ( defined $dependencies ) {
                 foreach my $dep ( @{$dependencies} ) {
                     &require( [$dep], $load_javascript )
@@ -109,6 +109,8 @@ sub require {
 
                 print STDERR "Javascript just loaded from '$pack_namespace'.\n"
                   if $DEBUG;
+
+                close $data;
             }
         }
     }
@@ -116,7 +118,7 @@ sub require {
     return 1;
 }
 
-sub get_variable {
+sub _get_variable {
     my ( $namespace, $variable, $type ) = @_;
 
     {

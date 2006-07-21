@@ -1,5 +1,7 @@
 package JavaScript::MochiKit::JS::Logging;
 
+use strict;
+
 1;
 
 __DATA__

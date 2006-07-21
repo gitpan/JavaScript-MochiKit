@@ -1,5 +1,7 @@
 package JavaScript::MochiKit::JS::DateTime;
 
+use strict;
+
 1;
 
 __DATA__

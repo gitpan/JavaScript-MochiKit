@@ -5,7 +5,7 @@ WriteMakefile
           'NAME' => 'JavaScript::MochiKit',
           'VERSION_FROM' => 'lib/JavaScript/MochiKit.pm',
           'PREREQ_PM' => {
-                           'Class::Accessor::Fast' => '0'
+                           'Class::Accessor::Chained::Fast' => '0'
                          },
           'INSTALLDIRS' => 'site',
           'PL_FILES' => {}

@@ -1,5 +1,7 @@
 package JavaScript::MochiKit::JS::Async;
 
+use strict;
+
 1;
 
 __DATA__

@@ -1,16 +1,16 @@
 ---
 name: JavaScript-MochiKit
-version: 0.03
+version: 0.04
 author:
   - 'Sascha Kiefer, C<esskar@cpan.org>'
 abstract: JavaScript::MochiKit makes Perl suck less
 license: perl
 requires:
-  Class::Accessor::Fast: 0
+  Class::Accessor::Chained::Fast: 0
 provides:
   JavaScript::MochiKit:
     file: lib/JavaScript/MochiKit.pm
-    version: 0.03
+    version: 0.04
   JavaScript::MochiKit::Accessor:
     file: lib/JavaScript/MochiKit/Accessor.pm
   JavaScript::MochiKit::Async:

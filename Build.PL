@@ -6,9 +6,9 @@ my $build = Module::Build->new(
     license            => 'perl',
     module_name        => 'JavaScript::MochiKit',
     create_readme      => 1,
-    sign               => 1,
+    sign               => 0,
     test_files         => [ glob('t/*.t') ],
-    requires           => { 'Class::Accessor::Fast' => 0, },
+    requires           => { 'Class::Accessor::Chained::Fast' => 0, },
 );
 
 $build->create_build_script;

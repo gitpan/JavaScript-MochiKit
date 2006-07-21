@@ -1,5 +1,7 @@
 package JavaScript::MochiKit::JS::Iter;
 
+use strict;
+
 1;
 
 __DATA__
